@@ -1,6 +1,6 @@
 
 body {
-  background: #131515;
+  background: #443730;
 }
 
 .navbar-default {
@@ -28,12 +28,12 @@ body {
 }
 
 .navbar {
-    background: #131515;
+    background: #443730;
 }
 
 .pagination > li > a
 {
-    background-color: #131515;
+    background-color: #443730;
     color: #FFFAFB;
     border-style: none none none none;
     font-size: 25px;
@@ -47,8 +47,8 @@ body {
 .pagination > li > span:hover
 {
     color: #FFFAFB;
-    background-color: #7DE2D1;
-    border-color: #7DE2D1;
+    background-color: #550C18;
+    border-color: #550C18;
     border-radius: 5px;
     
 }
@@ -56,15 +56,15 @@ body {
 .pagination > .active > a
 {
     color: #FFFAFB;
-    background-color: #7DE2D1 !Important;
+    background-color: #550C18 !Important;
     
     border-radius: 5px;
 }
 
 .pagination > .active > a:hover
 {
-    background-color:  #7DE2D1!Important;
-    border: solid 1px #7DE2D1;
+    background-color: #550C18!Important;
+    border: solid 1px #550C18;
 }
 .intro {
     font-size: 3.2vw;
@@ -84,7 +84,7 @@ body {
 }
 
 .childin:hover {
-    color:#2B2C28;
+    color:#F7DAD9;
 }
 
 #hail {
@@ -93,7 +93,7 @@ body {
 }
 
 .intro:hover {
-    color: #2B2C28;
+    color: #F7DAD9;
 }
 
 
@@ -105,14 +105,16 @@ body {
 
 .flex-container .child {
   flex-grow: 1;
- 
-  border: 1px solid black
+  color: white;
+  border: 1px solid #443730
 }
 
 #info {
     text-align: center;
     line-height: 50vw;
 }
+
+
 
 
 
