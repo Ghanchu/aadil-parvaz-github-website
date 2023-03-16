@@ -100,11 +100,22 @@ body {
 .flex-container {
     display:flex;
     
+    
 }
 
-.child {
-    flex: auto;
+.flex-container .child {
+  flex-grow: 1;
+ 
+  border: 1px solid black
 }
+
+#info {
+    text-align: center;
+    line-height: 50vw;
+}
+
+
+
 
 
 
