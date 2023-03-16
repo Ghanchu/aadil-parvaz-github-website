@@ -1,0 +1,107 @@
+
+body {
+  background: #393D3F;
+}
+
+.navbar-default {
+    border-style: none none none none;
+    
+    box-shadow: none;
+}
+
+
+
+.meme {
+    width: 50px;
+    height: auto;
+    
+}
+
+.navbaritems ul li {
+    font-family: Sans-Serif;
+    
+}
+
+#listitems li {
+    font-family: 'Times New Roman', Times, serif;
+    
+}
+
+.navbar {
+    background: #393D3F;
+}
+
+.pagination > li > a
+{
+    background-color: #393D3F;
+    color: white;
+    border-style: none none none none;
+    font-size: 25px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.pagination > li > a:focus,
+.pagination > li > a:hover,
+.pagination > li > span:focus,
+.pagination > li > span:hover
+{
+    color: white;
+    background-color: #62929E;
+    border-color: #62929E;
+    border-radius: 5px;
+    
+}
+
+.pagination > .active > a
+{
+    color: white;
+    background-color: #62929E !Important;
+    
+    border-radius: 5px;
+}
+
+.pagination > .active > a:hover
+{
+    background-color:  #62929E!Important;
+    border: solid 1px #62929E;
+}
+.intro {
+    font-size: 3.2vw;
+    font-family: 'Playfair Display';
+    color: white;
+    margin-left: 4.5vw;
+    margin-bottom: 15px;
+
+}
+
+.childin {
+    font-size: 2.5vw;
+    font-family: 'Playfair Display';
+    color: white;
+    margin-left: 4.5vw;
+    margin-bottom: 2px;
+}
+
+.childin:hover {
+    color:#C6C5B9;
+}
+
+#hail {
+    color: #FFCB05;
+
+}
+
+.intro:hover {
+    color: #C6C5B9;
+}
+
+
+
+
+
+
+
+
+
+
