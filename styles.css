@@ -1,6 +1,6 @@
 
 body {
-  background: #393D3F;
+  background: #131515;
 }
 
 .navbar-default {
@@ -28,13 +28,13 @@ body {
 }
 
 .navbar {
-    background: #393D3F;
+    background: #131515;
 }
 
 .pagination > li > a
 {
-    background-color: #393D3F;
-    color: white;
+    background-color: #131515;
+    color: #FFFAFB;
     border-style: none none none none;
     font-size: 25px;
     margin-left: 10px;
@@ -46,30 +46,30 @@ body {
 .pagination > li > span:focus,
 .pagination > li > span:hover
 {
-    color: white;
-    background-color: #62929E;
-    border-color: #62929E;
+    color: #FFFAFB;
+    background-color: #7DE2D1;
+    border-color: #7DE2D1;
     border-radius: 5px;
     
 }
 
 .pagination > .active > a
 {
-    color: white;
-    background-color: #62929E !Important;
+    color: #FFFAFB;
+    background-color: #7DE2D1 !Important;
     
     border-radius: 5px;
 }
 
 .pagination > .active > a:hover
 {
-    background-color:  #62929E!Important;
-    border: solid 1px #62929E;
+    background-color:  #7DE2D1!Important;
+    border: solid 1px #7DE2D1;
 }
 .intro {
     font-size: 3.2vw;
     font-family: 'Playfair Display';
-    color: white;
+    color: #FFFAFB;
     margin-left: 4.5vw;
     margin-bottom: 15px;
 
@@ -78,13 +78,13 @@ body {
 .childin {
     font-size: 2.5vw;
     font-family: 'Playfair Display';
-    color: white;
+    color: #FFFAFB;
     margin-left: 4.5vw;
     margin-bottom: 2px;
 }
 
 .childin:hover {
-    color:#C6C5B9;
+    color:#2B2C28;
 }
 
 #hail {
@@ -93,11 +93,18 @@ body {
 }
 
 .intro:hover {
-    color: #C6C5B9;
+    color: #2B2C28;
 }
 
 
+.flex-container {
+    display:flex;
+    
+}
 
+.child {
+    flex: auto;
+}
 
 
 
